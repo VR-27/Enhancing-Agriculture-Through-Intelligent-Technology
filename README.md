@@ -44,7 +44,7 @@ function smtp_mailer($to,$subject, $msg){
 
 1. Clone the repository to your local machine.
 ```bash
-git clone https://github.com/pawarharsh/agriculture-portal.git
+git clone https://github.com/VR-27/agriculture-portal.git
 ```
 2. Goto Farmers folder and Install the required packages using pip.
 ```
@@ -152,6 +152,7 @@ The Crop Management System dataset includes the following features:
 
 ###  OUTPUT
 [OUTPUT.pdf](https://github.com/pawarharsh/Enhancing-Agriculture-Through-Intelligent-Technology/files/15444640/OUTPUT.pdf)
+
 
 
 
