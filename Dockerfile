@@ -2,7 +2,7 @@ FROM python:3.9
 
 WORKDIR /app
 
-COPY ..
+COPY . .
 
 RUN pip install --no-cache-dir flask numpy pandas scikit-learn
 
