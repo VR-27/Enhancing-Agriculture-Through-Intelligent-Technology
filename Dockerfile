@@ -1,11 +1,5 @@
-FROM python:3.9
+FROM php:8.2-apache
 
-WORKDIR /app
+COPY . /var/www/html/
 
-COPY . .
-
-RUN pip install --no-cache-dir flask numpy pandas scikit-learn
-
-EXPOSE 5000
-
-CMD ["python3", "app.py"]
+EXPOSE 80
